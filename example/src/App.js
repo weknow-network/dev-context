@@ -13,7 +13,7 @@ export default class App extends Component {
             margin="dense"
             placeholder="Enter text and watch the render count (set debug context to true)"
             InputProps={{
-              endAdornment: endIcon ? endIcon : <RenderCountAdornment />
+              endAdornment: <RenderCountAdornment />
             }}
           />
         </div>
