@@ -16,7 +16,6 @@ export default class App extends Component {
               endAdornment: endIcon ? endIcon : <RenderCountAdornment />
             }}
           />
-          );
         </div>
       </DevContext.Provider>
     );
